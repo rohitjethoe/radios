@@ -12,6 +12,14 @@ If you have git installed:
 ```sh
 $ git clone https://github.com/rohitjethoe/radio.git
 ```
+```sh
+$ cd server
+$ npm run dev
+```
+```sh
+$ cd client
+$ npm run serve
+```
 
 ### :copyright: License
 [MIT License](http://opensource.org/licenses/MIT)
