@@ -1,0 +1,50 @@
+{
+    "radios": {
+        "NL": {
+            "0": {
+                "name": "NPO Radio 1",
+                "url": "https://icecast.omroep.nl/radio1-bb-mp3"
+            },
+            "1": {
+                "name": "NPO Radio 2",
+                "url": "https://icecast.omroep.nl/radio2-bb-mp3"
+            },
+            "2": {
+                "name": "Ujala Radio",
+                "url": "https://www.ujala.nl/player.html"
+            },
+            "3": {
+                "name": "FunX Amsterdam",
+                "url": "https://icecast.omroep.nl/funx-amsterdam-bb-mp3"
+            },
+            "4": {
+                "name": "Radio 538",
+                "url": "https://20103.live.streamtheworld.com/RADIO538.mp3"
+            }
+        },
+        "IN": {
+            "0": {
+                "name": "Radio Mix Bhakti",
+                "url": "http://91.121.222.81:8342/index.html?sid=1"
+            },
+            "1": {
+                "name": "",
+                "url": ""
+            }
+        },
+        "SP": {
+            "0": {
+                "name": "Alcudia Radio",
+                "url": "http://streaming.enantena.com:8000/alcudiaradio56.mp3"
+            },
+            "1": {
+                "name": "Cadena Dial",
+                "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3"
+            },
+            "2": {
+                "name": "Canal Blau",
+                "url": "http://streaming.enantena.com:8000/canalblau128.mp3"
+            }
+        }
+    }
+}
