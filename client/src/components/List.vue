@@ -1,14 +1,14 @@
 <template>
     <div class="list">
         <div class="item" v-bind:key="item" v-for="item in data.radios">
-            <div class="title">
+            <div class="title" @click="openCountries(item.continent_id)">
                 <span class="continent">🌍 {{ item.continent_name }}</span>
                 <span class="arrow"><i class="fa fa-chevron-down"></i></span>
             </div>
-            <div class="countries">
+            <div class="countries" :id="'countries-' + item.continent_id">
                 <div v-bind:key="country" v-for="country in item">
                     <div>
-                        <div class="name" v-if="country.country_name">
+                        <div @click="openRadios(country.country_id)" class="name" v-if="country.country_name">
                             <span class="country">
                                 {{ country.country_name }} 
                             </span>
@@ -17,8 +17,10 @@
                             </span>
                         </div>
                     </div>
-                    <div v-bind:key="radio" v-for="radio in country">
-                        <a class="radio-btn" @click="$emit('change-radio', radio.url)" target="_blank">{{ radio.name }}</a>
+                    <div :id="`radios-${country.country_id}`" class="radios">
+                        <div v-bind:key="radio" v-for="radio in country">
+                            <a class="radio-btn" @click="$emit('change-radio', radio.url)" target="_blank">{{ radio.name }}</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,6 +31,31 @@
 <script>
 export default {
     name: "List",
+    data() {
+        return {
+            continents: [true, false, false, false, false, false]
+        }
+    },
+    methods: {
+        openCountries(id) {
+            let countries = document.getElementById(`countries-${id}`);
+
+            if (!countries.classList.contains('countries-open')) {
+                countries.classList.add('countries-open');                
+            } else {
+                countries.classList.remove('countries-open');
+            }
+        },
+        openRadios(id) {
+            let radios = document.getElementById(`radios-${id}`);
+
+            if (!radios.classList.contains('radios-open')) {
+                radios.classList.add('radios-open');                
+            } else {
+                radios.classList.remove('radios-open');
+            }            
+        }
+    },
     props: ['data', 'href']
 }
 </script>
@@ -66,15 +93,34 @@ export default {
         margin-bottom: 5px;
     }
 
+    .title:hover {
+        cursor: pointer;
+    }
+
     .title::after {
         clear: both;
         display: table;
         content: "";
     }
 
-
-
     .countries {
         margin-left: 20px;
+        display: none;
+    }
+
+    .countries-open {
+        display: block;
+    }
+
+    .countries .name:hover {
+        cursor: pointer;
+    }
+
+    .radios {
+        display: none;
+    }
+
+    .radios-open {
+        display: block;
     }
 </style>
