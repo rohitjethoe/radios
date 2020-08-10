@@ -31,11 +31,6 @@
 <script>
 export default {
     name: "List",
-    data() {
-        return {
-            continents: [true, false, false, false, false, false]
-        }
-    },
     methods: {
         openCountries(id) {
             let countries = document.getElementById(`countries-${id}`);
@@ -56,7 +51,7 @@ export default {
             }            
         }
     },
-    props: ['data', 'href']
+    props: ['data']
 }
 </script>
 
