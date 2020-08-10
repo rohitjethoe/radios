@@ -1,7 +1,7 @@
 {
     "radios": {
         "Africa": {
-            "contintent_name": "Africa",
+            "continent_name": "Africa",
             "MA": {
                 "country_name": "Marocco",
                 "0": {
