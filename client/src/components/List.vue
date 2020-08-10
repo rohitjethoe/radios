@@ -1,16 +1,14 @@
 <template>
-    <div>
-        <div id="map">c
-        </div>
-    </div>
+    <div class="list">a</div>
 </template>
 
 <script>
-
 export default {
-    name: "Map",
+    name: "List",
+    props: ['data']
 }
 </script>
 
 <style scoped>
+
 </style>
