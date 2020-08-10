@@ -24,7 +24,10 @@ export default {
     return {
       map: false,
       data: null,
-      href: null
+      href: null,
+      station: undefined,
+      country: undefined,
+      continent: undefined
     }
   },
   mounted() {
