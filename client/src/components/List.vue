@@ -19,7 +19,7 @@
                     </div>
                     <div :id="`radios-${country.country_id}`" class="radios">
                         <div v-bind:key="radio" v-for="radio in country">
-                            <a class="radio-btn" @click="$emit('change-radio', radio.url)" target="_blank">{{ radio.name }}</a>
+                            <a v-if="radio.url" class="radio-btn" @click="$emit('change-radio', radio.url)" target="_blank">- <span class="radio-name">{{ radio.name }}</span></a>
                         </div>
                     </div>
                 </div>
@@ -117,5 +117,9 @@ export default {
 
     .radios-open {
         display: block;
+    }
+
+    .radio-name:hover {
+        text-decoration: underline;
     }
 </style>
