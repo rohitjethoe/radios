@@ -4,19 +4,24 @@
             "continent_name": "Africa",
             "continent_id": 0,
             "MA": {
+                "country_id": "MA",
                 "country_name": "🇲🇦 Marocco",
                 "0": {
+                    "id": 0,
                     "name": "Quran Coran Station",
                     "url": "https://onlineradiobox.com/json/ma/qurancoranstation/play?platform=web"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Medi 1 Radio",
                     "url": "https://onlineradiobox.com/json/ma/medi1/play?platform=web"
                 }
             },
             "ZA": {
+                "country_id": "ZA",
                 "country_name": "🇿🇦 South-Africa",
                 "0": {
+                    "id": 0,
                     "name": "947 Radio",
                     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM947_SC?dist=onlineradiobox"
                 }
@@ -26,27 +31,34 @@
             "continent_name": "Asia",
             "continent_id": 1,
             "IN": {
+                "country_id": "IN",
                 "country_name": "🇮🇳 India",
                 "0": {
+                    "id": 0,
                     "name": "Radio Mix Bhakti",
                     "url": "http://91.121.222.81:8342/index.html?sid=1"
                 },
                 "1": {
+                    "id": 1,
                     "name": "V V Radio",
                     "url": "http://music2.vvradio.co.in:2802/stream2"
                 },
                 "2": {
+                    "id": 2,
                     "name": "Retro Bollywood",
                     "url": "http://64.71.79.181:5124/stream"
                 }
             },
             "CN": {
+                "country_id": "CN",
                 "country_name": "🇨🇳 China",
                 "0": {
+                    "id": 0,
                     "name": "Chinese Music World",
                     "url": "https://radio.chinesemusicworld.com/chinesemusic.ogg?_=1"
                 },
                 "1": {
+                    "id": 1,
                     "name": "China Radio International",
                     "url": "https://lhttp.qingting.fm/live/1005/64k.mp3"
                 }
@@ -56,84 +68,106 @@
             "continent_name": "Europe",
             "continent_id": 2,
             "NL": {
+                "country_id": "NL",
                 "country_name": "🇳🇱 Netherlands",
                 "0": {
+                    "id": 0,
                     "name": "NPO Radio 1",
                     "url": "https://icecast.omroep.nl/radio1-bb-mp3"
                 },
                 "1": {
+                    "id": 1,
                     "name": "NPO Radio 2",
                     "url": "https://icecast.omroep.nl/radio2-bb-mp3"
                 },
                 "2": {
+                    "id": 2,
                     "name": "Ujala Radio",
                     "url": "https://server4.ujala.nl/stream/2/listen.mp3"
                 },
                 "3": {
+                    "id": 3,
                     "name": "FunX Amsterdam",
                     "url": "https://icecast.omroep.nl/funx-amsterdam-bb-mp3"
                 },
                 "4": {
+                    "id": 4,
                     "name": "Radio 538",
                     "url": "https://20103.live.streamtheworld.com/RADIO538.mp3"
                 },
                 "5": {
+                    "id": 5,
                     "name": "Amor FM",
                     "url": "https://amorfm_192.streampartner.nl/stream"
                 }
             },
             "SP": {
+                "country_id": "SP",
                 "country_name": "🇪🇸 Spain",
                 "0": {
+                    "id": 0,
                     "name": "Alcudia Radio",
                     "url": "http://streaming.enantena.com:8000/alcudiaradio56.mp3"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Cadena Dial",
                     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3"
                 },
                 "2": {
+                    "id": 2,
                     "name": "Canal Blau",
                     "url": "http://streaming.enantena.com:8000/canalblau128.mp3"
                 }
             },
             "DE": {
+                "country_id": "DE",
                 "country_name": "🇩🇪 Germany",
                 "0": {
+                    "id": 0,
                     "name": "Antenne Bayern",
                     "url": "https://mp3channels.webradio.antenne.de/antenne"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Radio Paloma",
                     "url": "https://pool.radiopaloma.de/RADIOPALOMA.mp3"
                 }
             },
             "IT": {
+                "country_id": "IT",
                 "country_name": "🇮🇹 Italy",
                 "0": {
+                    "id": 0,
                     "name": "RTL 102.5",
                     "url": "https://streamingv2.shoutcast.com/rtl-1025"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Radio Monte Carlo",
                     "url": "https://icecast.unitedradio.it/RMC.mp3"
                 },
                 "2": {
+                    "id": 2,
                     "name": "Kiss Kiss Italia",
                     "url": "https://ice06.fluidstream.net/KKItalia.aac?FLID=6"
                 }
             },
             "FR": {
+                "country_id": "FR",
                 "country_name": "🇫🇷 France",
                 "0": {
+                    "id": 0,
                     "name": "Nostalgie FM",
                     "url": "https://scdn.nrjaudio.fm/fr/30601/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
                 },
                 "1": {
+                    "id": 1,
                     "name": "France Inter",
                     "url": "https://icecast.radiofrance.fr/franceinter-midfi.mp3"
                 },
                 "2": {
+                    "id": 2,
                     "name": "NRJ",
                     "url": "https://scdn.nrjaudio.fm/fr/30001/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
                 }
@@ -143,12 +177,15 @@
             "continent_name": "North America",
             "continent_id": 3,
             "US": {
+                "country_id": "US",
                 "country_name": "🇺🇸 United States",
                 "0": {
+                    "id": 0,
                     "name": "Fox News Radio",
                     "url": "https://streaming-ent.shoutcast.com/foxnews"
                 },
                 "1": {
+                    "id": 1,
                     "name": ".977 Today's Hits",
                     "url": "https://17563.live.streamtheworld.com/977_HITSAAC_SC"
                 }
@@ -158,19 +195,24 @@
             "continent_name": "South America",
             "continent_id": 4,
             "SU": {
+                "country_id": "SU",
                 "country_name": "🇸🇷 Suriname",
                 "0": {
+                    "id": 0,
                     "name": "Radio Apintie Suriname",
                     "url": "http://s6.voscast.com:8150/;stream.nsv"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Sangeetmala Radio",
                     "url": "https://rs.suricloud.com/radio/8030/radio.mp3"
                 }
             },
             "BR": {
+                "country_id": "BR",
                 "country_name": "🇧🇷 Brazil",
                 "0": {
+                    "id": 0,
                     "name": "Antena 1",
                     "url": "https://antenaone.crossradio.com.br/stream/2;"
                 }
@@ -180,12 +222,15 @@
             "continent_name": "Oceania",
             "continent_id": 5,
             "AU": {
+                "country_id": "AU",
                 "country_name": "🇦🇺 Australia",
                 "0": {
+                    "id": 0,
                     "name": "Curtin Radio",
                     "url": "https://usa7.fastcast4u.com/proxy/curtinfm?mp=/1"
                 },
                 "1": {
+                    "id": 1,
                     "name": "Rebel 99.4 FM",
                     "url": "https://au1.fastcast4u.com/proxy/rblgc?mp=/stream"
                 }
