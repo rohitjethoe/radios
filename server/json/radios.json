@@ -11,7 +11,7 @@
             },
             "2": {
                 "name": "Ujala Radio",
-                "url": "https://www.ujala.nl/player.html"
+                "url": "https://server4.ujala.nl/stream/2/listen.mp3"
             },
             "3": {
                 "name": "FunX Amsterdam",
@@ -20,6 +20,10 @@
             "4": {
                 "name": "Radio 538",
                 "url": "https://20103.live.streamtheworld.com/RADIO538.mp3"
+            },
+            "5": {
+                "name": "Amor FM",
+                "url": "https://amorfm_192.streampartner.nl/stream"
             }
         },
         "IN": {
@@ -28,8 +32,12 @@
                 "url": "http://91.121.222.81:8342/index.html?sid=1"
             },
             "1": {
-                "name": "",
-                "url": ""
+                "name": "V V Radio",
+                "url": "http://music2.vvradio.co.in:2802/stream2"
+            },
+            "2": {
+                "name": "Retro Bollywood",
+                "url": "http://64.71.79.181:5124/stream"
             }
         },
         "SP": {
@@ -44,6 +52,16 @@
             "2": {
                 "name": "Canal Blau",
                 "url": "http://streaming.enantena.com:8000/canalblau128.mp3"
+            }
+        },
+        "SU": {
+            "0": {
+                "name": "Radio Apintie Suriname",
+                "url": "http://s6.voscast.com:8150/;stream.nsv"
+            },
+            "1": {
+                "name": "Sangeetmala Radio",
+                "url": "https://rs.suricloud.com/radio/8030/radio.mp3"
             }
         }
     }
