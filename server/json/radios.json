@@ -63,6 +63,96 @@
                 "name": "Sangeetmala Radio",
                 "url": "https://rs.suricloud.com/radio/8030/radio.mp3"
             }
+        },
+        "DE": {
+            "0": {
+                "name": "Antenne Bayern",
+                "url": "https://mp3channels.webradio.antenne.de/antenne"
+            },
+            "1": {
+                "name": "Radio Paloma",
+                "url": "https://pool.radiopaloma.de/RADIOPALOMA.mp3"
+            }
+        },
+        "US": {
+            "0": {
+                "name": "Fox News Radio",
+                "url": "https://streaming-ent.shoutcast.com/foxnews"
+            },
+            "1": {
+                "name": ".977 Today's Hits",
+                "url": "https://17563.live.streamtheworld.com/977_HITSAAC_SC"
+            }
+        },
+        "FR": {
+            "0": {
+                "name": "Nostalgie FM",
+                "url": "https://scdn.nrjaudio.fm/fr/30601/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
+            },
+            "1": {
+                "name": "France Inter",
+                "url": "https://icecast.radiofrance.fr/franceinter-midfi.mp3"
+            },
+            "2": {
+                "name": "NRJ",
+                "url": "https://scdn.nrjaudio.fm/fr/30001/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
+            }
+        },
+        "CN": {
+            "0": {
+                "name": "Chinese Music World",
+                "url": "https://radio.chinesemusicworld.com/chinesemusic.ogg?_=1"
+            },
+            "1": {
+                "name": "China Radio International",
+                "url": "https://lhttp.qingting.fm/live/1005/64k.mp3"
+            }
+        },
+        "MA": {
+            "0": {
+                "name": "Quran Coran Station",
+                "url": "https://onlineradiobox.com/json/ma/qurancoranstation/play?platform=web"
+            },
+            "1": {
+                "name": "Medi 1 Radio",
+                "url": "https://onlineradiobox.com/json/ma/medi1/play?platform=web"
+            }
+        },
+        "IT": {
+            "0": {
+                "name": "RTL 102.5",
+                "url": "https://streamingv2.shoutcast.com/rtl-1025"
+            },
+            "1": {
+                "name": "Radio Monte Carlo",
+                "url": "https://icecast.unitedradio.it/RMC.mp3"
+            },
+            "2": {
+                "name": "Kiss Kiss Italia",
+                "url": "https://ice06.fluidstream.net/KKItalia.aac?FLID=6"
+            }
+        },
+        "AU": {
+            "0": {
+                "name": "Curtin Radio",
+                "url": "https://usa7.fastcast4u.com/proxy/curtinfm?mp=/1"
+            },
+            "1": {
+                "name": "Rebel 99.4 FM",
+                "url": "https://au1.fastcast4u.com/proxy/rblgc?mp=/stream"
+            }
+        },
+        "BR": {
+            "0": {
+                "name": "Antena 1",
+                "url": "https://antenaone.crossradio.com.br/stream/2;"
+            }
+        },
+        "ZA": {
+            "0": {
+                "name": "947",
+                "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM947_SC?dist=onlineradiobox"
+            }
         }
     }
 }
