@@ -110,6 +110,20 @@
                     "name": "China Radio International",
                     "url": "https://lhttp.qingting.fm/live/1005/64k.mp3"
                 }
+            },
+            "TR": {
+                "country_id": "TR",
+                "country_name": "🇹🇷 Turkey",
+                "0": {
+                    "id": 0,
+                    "name": "Radyo Fenomen",
+                    "url": "https://listen.radyofenomen.com/fenomen/128/icecast.audio"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Virgin Radio",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIOAAC.aac"
+                }
             }
         },
         "Europe": {
@@ -251,11 +265,39 @@
                     "name": "The Beat 92.5",
                     "url": "https://cogecomedia.leanstream.co/CKBEFM-MP3"
                 }
+            },
+            "CR": {
+                "country_id": "CR",
+                "country_name": "🇨🇷 Costa Rica",
+                "0": {
+                    "id": 0,
+                    "name": "Urbano 106 FM",
+                    "url": "https://usa18.fastcast4u.com/proxy/rmoohhrw?mp=/1"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Radio Musical",
+                    "url": "https://onlineradiobox.com/json/cr/musical/play?platform=web"
+                }
             }
         },
         "South America": {
             "continent_name": "South America",
             "continent_id": 4,
+            "CO": {
+                "country_id": "CO",
+                "country_name": "🇨🇴 Colombia",
+                "0": {
+                    "id": 0,
+                    "name": "Besame Radio",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac?dist=onlineradiobox" 
+                },
+                "1": {
+                    "id": 1,
+                    "name": "La Kalle",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_KALLE.mp3"
+                }
+            },
             "SU": {
                 "country_id": "SU",
                 "country_name": "🇸🇷 Suriname",
