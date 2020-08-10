@@ -1,12 +1,13 @@
 <template>
     <div class="header">
         <div class="logo">
-            Radio Finder
+            Radio World
         </div>
         <div class="nav">
             <a v-bind:class="{ active: map }" @click="$emit('map-status', true)">Map</a>
             <div class="line"></div>
             <a v-bind:class="{ active: !map }" @click="$emit('map-status', true)">List</a>
+            <a class="burger-menu" @click="openNav()"><i class="fa fa-bars"></i></a>
         </div>
     </div>
 </template>
@@ -14,11 +15,25 @@
 <script>
 export default {
     name: "Header",
-    props: ['map']
+    props: ['map'],
+    methods: {
+        openNav() {
+            console.log("Open nav.")
+        }
+    }
 }
 </script>
 
 <style scoped>
+    .burger-menu {
+        margin-left: 15px;
+        transform: translateY(2px);
+    }
+
+    .burger-menu i {
+        font-size: 24px;
+    }
+
     .logo {
         font-size: 24px;
         padding: 5px;
