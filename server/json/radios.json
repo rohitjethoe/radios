@@ -36,7 +36,7 @@
                 "0": {
                     "id": 0,
                     "name": "Radio Mix Bhakti",
-                    "url": "http://91.121.222.81:8342/index.html?sid=1"
+                    "url": "http://91.121.222.81:8342/stream?type=http&nocache=1266"
                 },
                 "1": {
                     "id": 1,
@@ -47,6 +47,40 @@
                     "id": 2,
                     "name": "Retro Bollywood",
                     "url": "http://64.71.79.181:5124/stream"
+                },
+                "3": {
+                    "id": 3,
+                    "name": "Radio Bolly FM",
+                    "url": "https://onlineradiobox.com/json/in/radiobollyfm/play?platform=web"
+                },
+                "4": {
+                    "id": 4,
+                    "name": "Bhakti Radio",
+                    "url": "https://onlineradiobox.com/json/in/bhaktiradio/play?platform=web"
+                },
+                "5": {
+                    "id": 5,
+                    "name": "BBC Hindi",
+                    "url": "https://onlineradiobox.com/json/in/bbchindi/play?platform=web"
+                }
+            },
+            "JP": {
+                "country_id": "JP",
+                "country_name": "🇯🇵 Japan",
+                "0": {
+                    "id": 0,
+                    "name": "J-Pop Powerplay",
+                    "url": "https://onlineradiobox.com/json/jp/asiadreamradio/play?platform=web"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Vocaloid Radio",
+                    "url": "https://onlineradiobox.com/json/jp/vocaloidradio/play?platform=web"
+                },
+                "2": {
+                    "id": 2,
+                    "name": "J1 Radio",
+                    "url": "https://onlineradiobox.com/json/jp/j1/play?platform=web"
                 }
             },
             "CN": {
