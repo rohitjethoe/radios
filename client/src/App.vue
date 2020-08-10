@@ -1,19 +1,41 @@
 <template>
   <div id="app">
-    <Header />
-    <Map />
+    <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
+    <Map v-if="map" />
+    <List v-bind:data="data" v-if="!map"/>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
+
 import Header from './components/Header';
 import Map from './components/Map';
+import List from './components/List';
 
 export default {
   name: 'App',
+  data() {
+    return {
+      map: false,
+      data: null
+    }
+  },
+  mounted() {
+    axios.get('http://localhost:5000/api/radios')
+    .then((res) => {
+      this.data = res.data;
+    })
+  },
+  methods: {
+    changeMapStatus() {
+      this.map = !this.map;
+    }
+  },
   components: {
     Header,
-    Map
+    Map,
+    List
   }
 }
 </script>
