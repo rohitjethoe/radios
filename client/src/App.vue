@@ -3,6 +3,7 @@
     <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
     <Map v-if="map" />
     <List v-bind:data="data" v-on:change-radio="changeRadio" v-if="!map"/>
+    <Radio v-bind:href="href" />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import axios from 'axios';
 import Header from './components/Header';
 import Map from './components/Map';
 import List from './components/List';
+import Radio from './components/Radio';
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
   components: {
     Header,
     Map,
-    List
+    List,
+    Radio
   }
 }
 </script>
