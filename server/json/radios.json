@@ -3,7 +3,7 @@
         "Africa": {
             "continent_name": "Africa",
             "MA": {
-                "country_name": "Marocco",
+                "country_name": "🇲🇦 Marocco",
                 "0": {
                     "name": "Quran Coran Station",
                     "url": "https://onlineradiobox.com/json/ma/qurancoranstation/play?platform=web"
@@ -14,7 +14,7 @@
                 }
             },
             "ZA": {
-                "country_name": "South-Africa",
+                "country_name": "🇿🇦 South-Africa",
                 "0": {
                     "name": "947",
                     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM947_SC?dist=onlineradiobox"
@@ -24,7 +24,7 @@
         "Asia": {
             "continent_name": "Asia",
             "IN": {
-                "country_name": "India",
+                "country_name": "🇮🇳 India",
                 "0": {
                     "name": "Radio Mix Bhakti",
                     "url": "http://91.121.222.81:8342/index.html?sid=1"
@@ -39,7 +39,7 @@
                 }
             },
             "CN": {
-                "country_name": "China",
+                "country_name": "🇨🇳 China",
                 "0": {
                     "name": "Chinese Music World",
                     "url": "https://radio.chinesemusicworld.com/chinesemusic.ogg?_=1"
@@ -53,7 +53,7 @@
         "Europe": {
             "continent_name": "Europe",
             "NL": {
-                "country_name": "Netherlands",
+                "country_name": "🇳🇱 Netherlands",
                 "0": {
                     "name": "NPO Radio 1",
                     "url": "https://icecast.omroep.nl/radio1-bb-mp3"
@@ -80,7 +80,7 @@
                 }
             },
             "SP": {
-                "country_name": "Spain",
+                "country_name": "🇪🇸 Spain",
                 "0": {
                     "name": "Alcudia Radio",
                     "url": "http://streaming.enantena.com:8000/alcudiaradio56.mp3"
@@ -95,7 +95,7 @@
                 }
             },
             "DE": {
-                "country_name": "Germany",
+                "country_name": "🇩🇪 Germany",
                 "0": {
                     "name": "Antenne Bayern",
                     "url": "https://mp3channels.webradio.antenne.de/antenne"
@@ -106,7 +106,7 @@
                 }
             },
             "IT": {
-                "country_name": "Italy",
+                "country_name": "🇮🇹 Italy",
                 "0": {
                     "name": "RTL 102.5",
                     "url": "https://streamingv2.shoutcast.com/rtl-1025"
@@ -121,7 +121,7 @@
                 }
             },
             "FR": {
-                "country_name": "France",
+                "country_name": "🇫🇷 France",
                 "0": {
                     "name": "Nostalgie FM",
                     "url": "https://scdn.nrjaudio.fm/fr/30601/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
@@ -139,7 +139,7 @@
         "North America": {
             "continent_name": "North America",
             "US": {
-                "country_name": "United States",
+                "country_name": "🇺🇸 United States",
                 "0": {
                     "name": "Fox News Radio",
                     "url": "https://streaming-ent.shoutcast.com/foxnews"
@@ -153,7 +153,7 @@
         "South America": {
             "continent_name": "South America",
             "SU": {
-                "country_name": "Suriname",
+                "country_name": "🇸🇷 Suriname",
                 "0": {
                     "name": "Radio Apintie Suriname",
                     "url": "http://s6.voscast.com:8150/;stream.nsv"
@@ -164,7 +164,7 @@
                 }
             },
             "BR": {
-                "country_name": "Brazil",
+                "country_name": "🇧🇷 Brazil",
                 "0": {
                     "name": "Antena 1",
                     "url": "https://antenaone.crossradio.com.br/stream/2;"
@@ -174,7 +174,7 @@
         "Oceania": {
             "continent_name": "Oceania",
             "AU": {
-                "country_name": "Australia",
+                "country_name": "🇦🇺 Australia",
                 "0": {
                     "name": "Curtin Radio",
                     "url": "https://usa7.fastcast4u.com/proxy/curtinfm?mp=/1"
