@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
+    <div class="choose-station">
+      <h1><span>📻</span> Choose a radio station.</h1>
+    </div>
     <Map v-if="map" />
     <List v-bind:data="data" v-on:change-radio="changeRadio" v-if="!map"/>
     <Radio v-bind:href="href" />
@@ -58,5 +61,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+.choose-station {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.choose-station span {
+  margin-right: 10px;
 }
 </style>
