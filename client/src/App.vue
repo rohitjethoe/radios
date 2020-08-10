@@ -2,7 +2,7 @@
   <div id="app">
     <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
     <Map v-if="map" />
-    <List v-bind:data="data" v-if="!map"/>
+    <List v-bind:data="data" v-on:change-radio="changeRadio" v-if="!map"/>
   </div>
 </template>
 
@@ -18,7 +18,8 @@ export default {
   data() {
     return {
       map: false,
-      data: null
+      data: null,
+      href: null
     }
   },
   mounted() {
@@ -30,6 +31,9 @@ export default {
   methods: {
     changeMapStatus() {
       this.map = !this.map;
+    },
+    changeRadio(href) {
+      this.href = href;
     }
   },
   components: {
