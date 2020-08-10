@@ -1,5 +1,10 @@
 <template>
-    <div>
+    <div class="player">
+        <div class="playing">
+            <div class="title">
+                <h2></h2>
+            </div>
+        </div>
         <audio autoplay controls :src="href"></audio>
     </div>
 </template>
@@ -12,9 +17,13 @@ export default {
 </script>
 
 <style scoped>
-    audio {
-        width: 100%;
+    .player {
         position: fixed;
         bottom: 0;
+        width: 100vw;
+    }
+
+    audio {
+        width: 100%;
     }
 </style>
