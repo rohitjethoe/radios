@@ -3,6 +3,20 @@
         "Africa": {
             "continent_name": "Africa",
             "continent_id": 0,
+            "EG": {
+                "country_id": "EG",
+                "country_name": "🇪🇬 Egypt",
+                "0": {
+                    "id": 0,
+                    "name": "Radio Masr",
+                    "url": "https://streaming.radio.co/scc13a6b96/listen"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Mahatet Masr",
+                    "url": "https://s3.radio.co/s9cb11828c/listen"
+                }
+            },
             "MA": {
                 "country_id": "MA",
                 "country_name": "🇲🇦 Marocco",
@@ -223,6 +237,20 @@
                     "name": ".977 Today's Hits",
                     "url": "https://17563.live.streamtheworld.com/977_HITSAAC_SC"
                 }
+            },
+            "CA": {
+                "country_id": "CA",
+                "country_name": "🇨🇦 Canada",
+                "0": {
+                    "id": 0,
+                    "name": "98,5 FM",
+                    "url": "https://cogecomedia.leanstream.co/CHMPFM-MP3?"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "The Beat 92.5",
+                    "url": "https://cogecomedia.leanstream.co/CKBEFM-MP3"
+                }
             }
         },
         "South America": {
@@ -267,6 +295,20 @@
                     "id": 1,
                     "name": "Rebel 99.4 FM",
                     "url": "https://au1.fastcast4u.com/proxy/rblgc?mp=/stream"
+                }
+            },
+            "NZ": {
+                "country_id": "NZ",
+                "country_name": "🇳🇿New Zealand",
+                "0": {
+                    "id": 0,
+                    "name": "Newstalk ZB",
+                    "url": "https://ais-nzme.streamguys1.com/nz_002_aac"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Coast FM",
+                    "url": "https://ais-nzme.streamguys1.com/nz_011_aac"
                 }
             }
         }
