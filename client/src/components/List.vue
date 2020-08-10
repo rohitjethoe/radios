@@ -56,6 +56,11 @@ export default {
 </script>
 
 <style scoped>
+    .list {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
     .radio-btn:hover {
         cursor: pointer;
     }
