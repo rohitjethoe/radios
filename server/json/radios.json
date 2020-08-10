@@ -2,6 +2,7 @@
     "radios": {
         "Africa": {
             "continent_name": "Africa",
+            "continent_id": 0,
             "MA": {
                 "country_name": "🇲🇦 Marocco",
                 "0": {
@@ -23,6 +24,7 @@
         },
         "Asia": {
             "continent_name": "Asia",
+            "continent_id": 1,
             "IN": {
                 "country_name": "🇮🇳 India",
                 "0": {
@@ -52,6 +54,7 @@
         },
         "Europe": {
             "continent_name": "Europe",
+            "continent_id": 2,
             "NL": {
                 "country_name": "🇳🇱 Netherlands",
                 "0": {
@@ -138,6 +141,7 @@
         },
         "North America": {
             "continent_name": "North America",
+            "continent_id": 3,
             "US": {
                 "country_name": "🇺🇸 United States",
                 "0": {
@@ -152,6 +156,7 @@
         },
         "South America": {
             "continent_name": "South America",
+            "continent_id": 4,
             "SU": {
                 "country_name": "🇸🇷 Suriname",
                 "0": {
@@ -173,6 +178,7 @@
         },
         "Oceania": {
             "continent_name": "Oceania",
+            "continent_id": 5,
             "AU": {
                 "country_name": "🇦🇺 Australia",
                 "0": {
