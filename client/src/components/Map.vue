@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div id="map">c
+        <div id="map">
+            coming soon...
         </div>
     </div>
 </template>
