@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
+    <Header />
     <div class="container">
       <div class="title">
         About 
