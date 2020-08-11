@@ -83,8 +83,20 @@ export default {
         font-weight: 600;
     }
 
+    .name .country {
+        float: left;
+    }
+
     .name .arrow {
+        width: 185px;
         margin-left: 5px;
+        float: right;
+    }
+
+    .name::after {
+        clear: both;
+        content: "";
+        display: table;
     }
 
     .title {
@@ -126,5 +138,57 @@ export default {
 
     .radio-name:hover {
         text-decoration: underline;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        .title {
+            font-size: 24px;
+            width: 320px;
+        }
+        .name {
+            width: 420px;
+            font-size: 20px;
+        }
+        .list {
+            margin-left: 12%;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .title {
+            font-size: 24px;
+            width: 320px;
+        }
+        .name {
+            width: 420px;
+        }
+        .list {
+            margin-left: 12%;
+        }
+    }
+
+    @media only screen and (max-width: 750px) {
+        .title {
+            font-size: 20px;
+            width: 240px;
+        }
+
+        .name {
+            width: 350px;
+        }
+
+        .list {
+            margin-left: 14%;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .title {
+            font-size: 17px;
+        }
+        .list {
+            margin-top: 8%;
+            margin-left: 12%;
+        }
     }
 </style>

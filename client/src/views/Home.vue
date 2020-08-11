@@ -74,4 +74,37 @@ export default {
 .choose-station span {
   margin-right: 10px;
 }
+
+@media only screen and (min-width: 1100px) {
+  .choose-station {
+    font-size: 22px;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .choose-station {
+    font-size: 20px;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .choose-station {
+    font-size: 16px;
+    margin-top: 6%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .choose-station {
+    margin-top: 10%;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
 </style>
