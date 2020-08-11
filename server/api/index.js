@@ -15,6 +15,17 @@ router.get('/radios/:continent/', (req, res) => {
     res.send(data['radios'][continent]);
 })
 
+router.get('/radios/:continent/:country/:id', (req, res) => {
+    const data = require('../json/radios.json');
+    let continent = req.params.continent;
+    let country = req.params.country;
+    let id = req.params.id;
+
+    country = country.toUpperCase();
+
+    res.send(data['radios'][continent][country][id]);
+})
+
 router.get('/radios/:continent/:country', (req, res) => {
     const data = require('../json/radios.json');
     let continent = req.params.continent;
