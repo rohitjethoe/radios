@@ -8,7 +8,7 @@ Luister naar radio stations over de hele wereld.
 - Gratis en Open Source
 
 ### :rocket: Beginnen
-Als je git hebt geinstalleerd: 
+Als je git en node/npm hebt geinstalleerd: 
 ```sh
 $ git clone https://github.com/rohitjethoe/radio.git
 ```
