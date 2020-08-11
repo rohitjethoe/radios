@@ -75,4 +75,8 @@ export default {
 .container {
   min-height: calc(100vh - 43px - 28px);
 }
+
+a:link, a:visited {
+  color: #7198c5;
+}
 </style>
