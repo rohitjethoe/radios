@@ -76,6 +76,11 @@
                     "id": 5,
                     "name": "BBC Hindi",
                     "url": "https://onlineradiobox.com/json/in/bbchindi/play?platform=web"
+                },
+                "6": {
+                    "id": 6,
+                    "name": "Radio Afsana",
+                    "url": "https://onlineradiobox.com/json/in/radioafsana/play?platform=web"
                 }
             },
             "JP": {
@@ -232,6 +237,21 @@
                     "id": 2,
                     "name": "NRJ",
                     "url": "https://scdn.nrjaudio.fm/fr/30001/mp3_128.mp3?origine=radiobox&cdn_path=adswizz_lbs8"
+                },
+                "3": {
+                    "id": 3,
+                    "name": "Cherie FM",
+                    "url": "https://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3?origine=radiobox"
+                },
+                "4": {
+                    "id": 4,
+                    "name": "ABC Lounge Radio",
+                    "url": "https://listen.openstream.co/3139/audio"
+                },
+                "5": {
+                    "id": 5,
+                    "name": "RTL Radio",
+                    "url": "https://streaming.radio.rtl.fr/rtl-1-44-128"
                 }
             }
         },
@@ -298,8 +318,8 @@
                     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_KALLE.mp3"
                 }
             },
-            "SU": {
-                "country_id": "SU",
+            "SR": {
+                "country_id": "SR",
                 "country_name": "🇸🇷 Suriname",
                 "0": {
                     "id": 0,
@@ -310,6 +330,21 @@
                     "id": 1,
                     "name": "Sangeetmala Radio",
                     "url": "https://rs.suricloud.com/radio/8030/radio.mp3"
+                },
+                "2": {
+                    "id": 2,
+                    "name": "Radio SRS Suriname",
+                    "url": "https://onlineradiobox.com/json/sr/srs/play?platform=web"
+                },
+                "3": {
+                    "id": 3,
+                    "name": "Color Radio 102.5",
+                    "url": "https://onlineradiobox.com/json/sr/color/play?platform=web"
+                },
+                "4": {
+                    "id": 4,
+                    "name": "Radio ABC",
+                    "url": "https://onlineradiobox.com/json/sr/abc/play?platform=web"
                 }
             },
             "BR": {
@@ -319,6 +354,16 @@
                     "id": 0,
                     "name": "Antena 1",
                     "url": "https://antenaone.crossradio.com.br/stream/2;"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Radio Villa Mix",
+                    "url": "https://r16.ciclano.io:15012/stream"
+                },
+                "2": {
+                    "id": 2,
+                    "name": "Radio Metropolitana",
+                    "url": "https://paineldj5.com.br:2004/live"
                 }
             }
         },
