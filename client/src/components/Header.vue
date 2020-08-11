@@ -9,16 +9,40 @@
             <a v-bind:class="{ active: !map }" @click="$emit('map-status', true)">List</a>
             <a class="burger-menu" @click="openNav()"><i class="fa fa-bars"></i></a>
         </div>
+        <div v-if="navOpened" class="menu">
+            <div @click="openNav()" class="close">
+                <i class="fa fa-times"></i>
+            </div>
+            <ul class="router">
+                <li>
+                    <router-link class="link" to="/">Home</router-link> 
+                </li>
+                <li>
+                    <router-link class="link" to="/about">About</router-link>
+                </li>
+                <li>
+                    <router-link class="link" to="/contact">Contact</router-link>
+                </li>
+                <li>
+                    <router-link class="link" to="/policy">Privacy Policy</router-link>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
     name: "Header",
+    data() {
+        return {
+            navOpened: false
+        }
+    },
     props: ['map'],
     methods: {
         openNav() {
-            console.log("Open nav.")
+            this.navOpened = !this.navOpened;
         }
     }
 }
@@ -74,5 +98,52 @@ export default {
         clear: both;
         content: "";
         display: table;
+    }
+
+    .menu {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255,255,255, 0.7);
+        position: fixed;
+    }
+
+    .close {
+        float: right;
+        font-size: 32px;
+        padding: 5px;
+        padding-right: 10px;
+    }
+
+    .close:hover {
+        cursor: pointer;
+    }
+
+    .router a:link, .router a:visited {
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 36px;
+    }
+
+    .router li {
+        list-style-type: none;
+    }
+
+    .router {
+        display: block;
+        margin-left: 12%;
+        margin-top: 15%;
+    }
+
+    .link:link, .link:visited {
+        color: #2c3e50;
+    }
+
+    ul li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .router-link-active:link, .router-link-active:visited {
+        border-bottom: 4px solid;
     }
 </style>
