@@ -1,6 +1,6 @@
 <template>
   <div id="Home">
-    <Header v-bind:map="map" v-on:map-status="changeMapStatus()"/>
+    <Header v-bind:page="page" v-bind:map="map" v-on:map-status="changeMapStatus()"/>
     <div class="choose-station">
       <h1><span>📻</span> Choose a radio station.</h1>
     </div>
@@ -25,9 +25,7 @@ export default {
       map: false,
       data: null,
       href: null,
-      station: undefined,
-      country: undefined,
-      continent: undefined
+      page: 'Home'
     }
   },
   mounted() {

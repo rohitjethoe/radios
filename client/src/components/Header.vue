@@ -4,9 +4,11 @@
             Radio World
         </div>
         <div class="nav">
-            <a v-bind:class="{ active: map }" @click="$emit('map-status', true)">Map</a>
-            <div class="line"></div>
-            <a v-bind:class="{ active: !map }" @click="$emit('map-status', true)">List</a>
+            <div class="list-type" v-if="this.page === 'Home'">    
+                <a v-bind:class="{ active: map }" @click="$emit('map-status', true)">Map</a>
+                <div class="line"></div>
+                <a v-bind:class="{ active: !map }" @click="$emit('map-status', true)">List</a>
+            </div> 
             <a class="burger-menu" @click="openNav()"><i class="fa fa-bars"></i></a>
         </div>
         <div v-if="navOpened" class="menu">
@@ -39,7 +41,7 @@ export default {
             navOpened: false
         }
     },
-    props: ['map'],
+    props: ['map', 'page'],
     methods: {
         openNav() {
             this.navOpened = !this.navOpened;
@@ -49,6 +51,10 @@ export default {
 </script>
 
 <style scoped>
+    .list-type {
+        display: flex;
+    }
+
     .burger-menu {
         margin-left: 15px;
         transform: translateY(2px);
@@ -143,7 +149,7 @@ export default {
         padding-bottom: 6px;
     }
 
-    .router-link-active:link, .router-link-active:visited {
+    .router-link-exact-active:link, .router-link-exact-active:visited {
         border-bottom: 4px solid;
     }
 </style>
