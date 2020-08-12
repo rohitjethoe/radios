@@ -79,4 +79,54 @@ export default {
 a:link, a:visited {
   color: #7198c5;
 }
+
+@media only screen and (min-width: 650px) {
+  .container .title {
+    font-size: 48px;
+  }
+
+  .container .title .rect {
+    width: 100px;
+    margin: 0px 24px;
+  }
+
+  .content {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+    .container .title {
+    font-size: 50px;
+  }
+
+  .container .title .rect {
+    width: 100px;
+    margin: 0px 24px;
+  }
+
+  .content {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .content {
+    width: 600px;
+  }
+
+  .container {
+    margin-left: 5%;
+  }
+
+  .container .title {
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+
+  .container .title .rect {
+    width: 100px;
+    margin: 0px 24px;
+  }
+}
 </style>
