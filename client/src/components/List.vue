@@ -2,7 +2,7 @@
     <div class="list">
         <div class="item" v-bind:key="item" v-for="item in data.radios">
             <div class="title" @click="openCountries(item.continent_id)">
-                <span class="continent">🌍 {{ item.continent_name }}</span>
+                <span class="continent">{{ item.continent_name }}</span>
                 <span class="arrow"><i class="fa fa-chevron-down"></i></span>
             </div>
             <div class="countries" :id="'countries-' + item.continent_id">
