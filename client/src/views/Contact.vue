@@ -1,6 +1,26 @@
 <template>
     <div class="Contact">
         <Header v-bind:page="page"/>
+        <div class="container">
+            <div class="title">
+                Contact
+                <div class="rect"></div>
+            </div>
+            <div class="social">
+                <a href="">
+                    <i class="social-icon fab fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="social-icon fa fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="social-icon fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="social-icon fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -35,4 +55,12 @@ export default {
   text-align: left;
 }
 
+.social-icon {
+    font-size: 48px;
+    margin: 0px 10px;
+}
+
+.social {
+    text-align: center;
+}
 </style>

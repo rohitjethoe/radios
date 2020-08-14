@@ -34,6 +34,6 @@ router.get('/radios/:continent/:country', (req, res) => {
     country = country.toUpperCase();
 
     res.send(data['radios'][continent][country]);
-})
+});
 
 module.exports = router;
