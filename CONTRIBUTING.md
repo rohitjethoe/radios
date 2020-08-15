@@ -34,4 +34,4 @@ See [Getting Started](./README.md) section for further instructions about the in
 
 Thanks! :heart: :heart: :heart:
 
-[Radio World](https://github.com/rohitjethoe/radios)
+[Rohit Jethoe](https://github.com/rohitjethoe/radios)
