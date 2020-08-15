@@ -30,7 +30,7 @@ To submit a project (Dashboards, Mobile Applications, Desktop Applications, Bots
 
 - Please use `npm run lint` for style unification
 
-See [Installation](./README.md#installation) section for further instructions.
+See [Getting Started](./README.md) section for further instructions about the installation.
 
 Thanks! :heart: :heart: :heart:
 
