@@ -7,6 +7,9 @@ Radio listen to radio stations all over the world.
 - API lookups
 - Free and Open Source
 
+### 📝 Contributing\
+If you want to contribute to this project see the [contributing guidelines](./CONTRIBUTING.md).
+
 ### :rocket: Getting Started
 If you have git and node/npm installed: 
 ```sh
