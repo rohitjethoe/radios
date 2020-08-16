@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use("/api/", require("./api/index"));
+app.use("/api/", require("./routes/index"));
 
 const PORT = process.env.PORT || 5000;
 
