@@ -220,6 +220,35 @@
                     "url": "https://ice06.fluidstream.net/KKItalia.aac?FLID=6"
                 }
             },
+            "UK": {
+                "country_id": "UK",
+                "country_name": "🇬🇧 United Kingdom",
+                "0": {
+                    "id": 0,
+                    "name": "Capital FM",
+                    "url": "http://icecast.thisisdax.com/CapitalUKMP3.m3u"
+                },
+                "1": {
+                    "id": 1,
+                    "name": "Heart FM",
+                    "url": "http://icecast.thisisdax.com/HeartUKMP3.m3u"
+                },
+                "2": {
+                    "id": 2,
+                    "name": "Smooth Radio",
+                    "url": "http://icecast.thisisdax.com/SmoothUKMP3.m3u"
+                },
+                "3": {
+                    "id": 3,
+                    "name": "Kiss FM",
+                    "url": "http://www.radiofeeds.co.uk/bauer.pls?station=kissnational.mp3.m3u"
+                },
+                "4": {
+                    "id": 4,
+                    "name": "Virgin Radio",
+                    "url": "http://www.radiofeeds.co.uk/wgvirginradio.m3u"
+                }
+            },
             "FR": {
                 "country_id": "FR",
                 "country_name": "🇫🇷 France",
@@ -342,7 +371,7 @@
                 "0": {
                     "id": 0,
                     "name": "Besame Radio",
-                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac?dist=onlineradiobox" 
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac?dist=onlineradiobox"
                 },
                 "1": {
                     "id": 1,
